@@ -26,6 +26,11 @@ QuickBooks_Loader::load('/QuickBooks/QBXML/Object/Generic.php');
 QuickBooks_Loader::load('/QuickBooks/QBXML/Object/SalesOrder/SalesOrderLine.php');
 
 /**
+ *
+ */
+QuickBooks_Loader::load('/QuickBooks/XML.php', false);
+
+/**
  * 
  * 
  */
